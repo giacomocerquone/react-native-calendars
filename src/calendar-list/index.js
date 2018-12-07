@@ -40,8 +40,12 @@ class CalendarList extends Component {
 
     // Whether the scroll is horizontal
     horizontal: PropTypes.bool,
+
     // Dynamic calendar height
     calendarHeight: PropTypes.number,
+
+    // Custom header for the calendars
+    renderHeader: PropTypes.any
   };
 
   static defaultProps = {
